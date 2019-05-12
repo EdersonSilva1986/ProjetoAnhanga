@@ -4,6 +4,7 @@ npm install
 npm install express
 npm install nodemon
 npm install body-parser
+npm install mongoose --save
 
 
 instalar o Postman para trabalhar com as requisições da API.
