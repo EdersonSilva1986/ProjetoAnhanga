@@ -1,0 +1,15 @@
+comandos para instalar os pacotes 
+
+npm install
+npm install express
+npm install nodemon
+npm install body-parser
+
+
+instalar o Postman para trabalhar com as requisições da API.
+
+script para conectar o app no mysql e fazer requisições em api
+https://github.com/mnihouze/ionic-mysql
+
+tutorial para conectar no mysql usando formato js através do app
+https://ionicdon.com/setup-login-register-ionic3-using-php-mysql/
