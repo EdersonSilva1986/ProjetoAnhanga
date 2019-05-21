@@ -19,7 +19,7 @@ categoriaController.prototype.get = async (req, res) =>{
     res.status(200).send(lista);
 };
 categoriaController.prototype.getById = async (req, res) =>{
-    let categoria = await new repository().getById(req.params.id)
+    let categoria = await new repository().getById(req.params.id);
     res.status(200).send(categoria);
 };
 categoriaController.prototype.delete = async (req, res) =>{

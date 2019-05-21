@@ -7,10 +7,18 @@ npm install body-parser
 npm install mongoose --save
 
 
-instalar o Postman para trabalhar com as requisições da API.
+instalar o Postman para trabalhar com as requisiï¿½ï¿½es da API.
 
-script para conectar o app no mysql e fazer requisições em api
+script para conectar o app no mysql e fazer requisiï¿½ï¿½es em api
 https://github.com/mnihouze/ionic-mysql
 
-tutorial para conectar no mysql usando formato js através do app
+tutorial para conectar no mysql usando formato js atravï¿½s do app
 https://ionicdon.com/setup-login-register-ionic3-using-php-mysql/
+
+comando para baixar os arquivos de configuraï¿½ï¿½o de login do ionic
+ionic start loginRegisterApp blank
+
+sendo que loginRegisterApp ï¿½ o nome da pasta/repositorio a ser criado.
+
+comando para instalar os pacotes para criptografia de senhas:
+npm install --save md5

@@ -93,7 +93,7 @@ export class HomePage {
 
         loader.present().then(() => {
 
-          this.http.post("http://localhost/ionic/login.php", data, options)
+          this.http.post("http://mnihouze.com.br/ionic/login.php", data, options)
 
             .map(res => res.json())
 
@@ -103,11 +103,11 @@ export class HomePage {
 
               loader.dismiss()
 
-              if (res == "Your Login success") {
+              if (res == "Login Efetuado") {
 
                 let alert = this.alertCtrl.create({
 
-                  title: "CONGRATS",
+                  title: "Sucesso",
 
                   subTitle: (res),
 
@@ -121,9 +121,9 @@ export class HomePage {
 
                 let alert = this.alertCtrl.create({
 
-                  title: "ERROR",
+                  title: "Erro",
 
-                  subTitle: "Your Login Username or Password is invalid",
+                  subTitle: "Seu Login ou Senha são inválidos",
 
                   buttons: ["OK"]
 
